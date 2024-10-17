@@ -1,0 +1,9 @@
+{
+  "name": "@loft-enterprise/icons",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "5.3.7"
+  }
+}
