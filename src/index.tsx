@@ -40,10 +40,6 @@ export const RightOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/RightOutlined"))
 )
 
-export const DisconnectOutlined = createLazyIconComponent(
-  lazy(() => import("@ant-design/icons/DisconnectOutlined"))
-)
-
 export const DownloadOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/DownloadOutlined"))
 )
