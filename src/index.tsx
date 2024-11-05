@@ -32,10 +32,36 @@ export { EditPencilIcon } from "./EditPencil"
 export { VClusterRocketIcon } from "./VClusterRocket"
 export * from "./ExternallyDeployedIcons"
 export { ExpandIcon } from "./ExpandIcon"
+export { RegexIcon } from "./RegexIcon"
+export { DragAreaIcon } from "./DragAreaIcon"
+
+export const AlignLeftOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/AlignLeftOutlined"))
+)
+export const CheckSquareOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/CheckSquareOutlined"))
+)
+
+export const FontSizeOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FontSizeOutlined"))
+)
+
+export const FieldBinaryOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FieldBinaryOutlined"))
+)
 
 export const LeftOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/LeftOutlined"))
 )
+
+export const BarsOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/BarsOutlined"))
+)
+
+export const ColumnWidthOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/ColumnWidthOutlined"))
+)
+
 export const RightOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/RightOutlined"))
 )
