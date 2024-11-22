@@ -32,10 +32,36 @@ export { EditPencilIcon } from "./EditPencil"
 export { VClusterRocketIcon } from "./VClusterRocket"
 export * from "./ExternallyDeployedIcons"
 export { ExpandIcon } from "./ExpandIcon"
+export { RegexIcon } from "./RegexIcon"
+export { DragAreaIcon } from "./DragAreaIcon"
+
+export const AlignLeftOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/AlignLeftOutlined"))
+)
+export const CheckSquareOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/CheckSquareOutlined"))
+)
+
+export const FontSizeOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FontSizeOutlined"))
+)
+
+export const FieldBinaryOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FieldBinaryOutlined"))
+)
 
 export const LeftOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/LeftOutlined"))
 )
+
+export const BarsOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/BarsOutlined"))
+)
+
+export const ColumnWidthOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/ColumnWidthOutlined"))
+)
+
 export const RightOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/RightOutlined"))
 )
@@ -168,6 +194,10 @@ export const UserOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/UserOutlined"))
 )
 
+export const CalendarOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/CalendarOutlined"))
+)
+
 export const AppstoreAddOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/AppstoreAddOutlined"))
 )
@@ -266,6 +296,10 @@ export const CloseCircleOutlined = createLazyIconComponent(
 
 export const InfoCircleOutlined = createLazyIconComponent(
   lazy(() => import("@ant-design/icons/InfoCircleOutlined"))
+)
+
+export const FileSyncOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FileSyncOutlined"))
 )
 
 export const FileProtectOutlined = createLazyIconComponent(
