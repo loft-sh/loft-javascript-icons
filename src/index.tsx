@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react"
+import { lazy } from "react"
 
 import { createLazyIconComponent } from "./utils"
 
@@ -34,393 +34,438 @@ export * from "./ExternallyDeployedIcons"
 export { ExpandIcon } from "./ExpandIcon"
 export { RegexIcon } from "./RegexIcon"
 export { DragAreaIcon } from "./DragAreaIcon"
-export { CollapseIcon } from "./CollapseIcon"
-export { KubernetesOutlinedIcon } from "./KubernetesOutlined"
-
-const FallbackIcon = forwardRef<HTMLSpanElement>(() => <span />)
-FallbackIcon.displayName = "FallbackIcon"
 
 export const AlignLeftOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/AlignLeftOutlined")
+  lazy(() => import("@ant-design/icons/AlignLeftOutlined"))
 )
 export const CheckSquareOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CheckSquareOutlined")
+  lazy(() => import("@ant-design/icons/CheckSquareOutlined"))
 )
 
 export const FontSizeOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/FontSizeOutlined")
+  lazy(() => import("@ant-design/icons/FontSizeOutlined"))
 )
 
 export const FieldBinaryOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/FieldBinaryOutlined")
+  lazy(() => import("@ant-design/icons/FieldBinaryOutlined"))
 )
 
-export const LeftOutlined = createLazyIconComponent(() => import("@ant-design/icons/LeftOutlined"))
+export const LeftOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/LeftOutlined"))
+)
 
-export const BarsOutlined = createLazyIconComponent(() => import("@ant-design/icons/BarsOutlined"))
+export const BarsOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/BarsOutlined"))
+)
 
 export const ColumnWidthOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ColumnWidthOutlined")
+  lazy(() => import("@ant-design/icons/ColumnWidthOutlined"))
 )
 
 export const RightOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/RightOutlined")
+  lazy(() => import("@ant-design/icons/RightOutlined"))
 )
 
 export const DisconnectOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/DisconnectOutlined")
+  lazy(() => import("@ant-design/icons/DisconnectOutlined"))
 )
 
 export const DownloadOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/DownloadOutlined")
+  lazy(() => import("@ant-design/icons/DownloadOutlined"))
 )
 
 export const DeleteOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/DeleteOutlined")
+  lazy(() => import("@ant-design/icons/DeleteOutlined"))
 )
 
-export const HddTwoTone = createLazyIconComponent(() => import("@ant-design/icons/HddTwoTone"))
+export const HddTwoTone = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/HddTwoTone"))
+)
 
 export const CloseOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CloseOutlined")
+  lazy(() => import("@ant-design/icons/CloseOutlined"))
 )
 
 export const PlusCircleTwoTone = createLazyIconComponent(
-  () => import("@ant-design/icons/PlusCircleTwoTone")
+  lazy(() => import("@ant-design/icons/PlusCircleTwoTone"))
 )
 
-export const CopyOutlined = createLazyIconComponent(() => import("@ant-design/icons/CopyOutlined"))
+export const CopyOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/CopyOutlined"))
+)
 
 export const MinusCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/MinusCircleOutlined")
+  lazy(() => import("@ant-design/icons/MinusCircleOutlined"))
 )
 
 export const PlusCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/PlusCircleOutlined")
+  lazy(() => import("@ant-design/icons/PlusCircleOutlined"))
 )
 
 export const CaretDownOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CaretDownOutlined")
+  lazy(() => import("@ant-design/icons/CaretDownOutlined"))
 )
 
 export const CloseCircleFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/CloseCircleFilled")
+  lazy(() => import("@ant-design/icons/CloseCircleFilled"))
 )
 
 export const GithubOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/GithubOutlined")
+  lazy(() => import("@ant-design/icons/GithubOutlined"))
 )
 
-export const LinkOutlined = createLazyIconComponent(() => import("@ant-design/icons/LinkOutlined"))
+export const LinkOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/LinkOutlined"))
+)
 
 export const PlusCircleFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/PlusCircleFilled")
+  lazy(() => import("@ant-design/icons/PlusCircleFilled"))
 )
 
 export const UserSwitchOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/UserSwitchOutlined")
+  lazy(() => import("@ant-design/icons/UserSwitchOutlined"))
 )
 
-export const DownOutlined = createLazyIconComponent(() => import("@ant-design/icons/DownOutlined"))
+export const DownOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/DownOutlined"))
+)
 
 export const FolderOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/FolderOutlined")
+  lazy(() => import("@ant-design/icons/FolderOutlined"))
 )
 
-export const PlusOutlined = createLazyIconComponent(() => import("@ant-design/icons/PlusOutlined"))
+export const PlusOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/PlusOutlined"))
+)
 
-export const TagsOutlined = createLazyIconComponent(() => import("@ant-design/icons/TagsOutlined"))
+export const TagsOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/TagsOutlined"))
+)
 
-export const ToolOutlined = createLazyIconComponent(() => import("@ant-design/icons/ToolOutlined"))
+export const ToolOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/ToolOutlined"))
+)
 
 export const ArrowRightOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ArrowRightOutlined")
+  lazy(() => import("@ant-design/icons/ArrowRightOutlined"))
 )
 
 export const CaretUpOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CaretUpOutlined")
+  lazy(() => import("@ant-design/icons/CaretUpOutlined"))
 )
 
-export const GoldOutlined = createLazyIconComponent(() => import("@ant-design/icons/GoldOutlined"))
+export const GoldOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/GoldOutlined"))
+)
 
 export const AuditOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/AuditOutlined")
+  lazy(() => import("@ant-design/icons/AuditOutlined"))
 )
 
 export const CloudOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CloudOutlined")
+  lazy(() => import("@ant-design/icons/CloudOutlined"))
 )
 
 export const ExpandOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ExpandOutlined")
+  lazy(() => import("@ant-design/icons/ExpandOutlined"))
 )
 
 export const LoginOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/LoginOutlined")
+  lazy(() => import("@ant-design/icons/LoginOutlined"))
 )
 
 export const ControlOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ControlOutlined")
+  lazy(() => import("@ant-design/icons/ControlOutlined"))
 )
 
-export const HddOutlined = createLazyIconComponent(() => import("@ant-design/icons/HddOutlined"))
+export const HddOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/HddOutlined"))
+)
 
 export const NotificationOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/NotificationOutlined")
+  lazy(() => import("@ant-design/icons/NotificationOutlined"))
 )
 
 export const SolutionOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/SolutionOutlined")
+  lazy(() => import("@ant-design/icons/SolutionOutlined"))
 )
 
-export const UserOutlined = createLazyIconComponent(() => import("@ant-design/icons/UserOutlined"))
+export const UserOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/UserOutlined"))
+)
 
 export const CalendarOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CalendarOutlined")
+  lazy(() => import("@ant-design/icons/CalendarOutlined"))
 )
 
 export const AppstoreAddOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/AppstoreAddOutlined")
+  lazy(() => import("@ant-design/icons/AppstoreAddOutlined"))
 )
 
-export const CodeOutlined = createLazyIconComponent(() => import("@ant-design/icons/CodeOutlined"))
+export const CodeOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/CodeOutlined"))
+)
 
 export const FileTextOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/FileTextOutlined")
+  lazy(() => import("@ant-design/icons/FileTextOutlined"))
 )
 
-export const FileOutlined = createLazyIconComponent(() => import("@ant-design/icons/FileOutlined"))
+export const FileOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FileOutlined"))
+)
 
 export const ReloadOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ReloadOutlined")
+  lazy(() => import("@ant-design/icons/ReloadOutlined"))
 )
 
-export const UpOutlined = createLazyIconComponent(() => import("@ant-design/icons/UpOutlined"))
+export const UpOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/UpOutlined"))
+)
 
 export const PauseOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/PauseOutlined")
+  lazy(() => import("@ant-design/icons/PauseOutlined"))
 )
 
 export const UpCircleFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/UpCircleFilled")
+  lazy(() => import("@ant-design/icons/UpCircleFilled"))
 )
 
 export const MinusSquareOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/MinusSquareOutlined")
+  lazy(() => import("@ant-design/icons/MinusSquareOutlined"))
 )
 
 export const PlusSquareOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/PlusSquareOutlined")
+  lazy(() => import("@ant-design/icons/PlusSquareOutlined"))
 )
 
 export const QuestionCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/QuestionCircleOutlined")
+  lazy(() => import("@ant-design/icons/QuestionCircleOutlined"))
 )
 
 export const LoadingOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/LoadingOutlined")
+  lazy(() => import("@ant-design/icons/LoadingOutlined"))
 )
 
-export const EditFilled = createLazyIconComponent(() => import("@ant-design/icons/EditFilled"))
+export const EditFilled = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/EditFilled"))
+)
 
 export const ClockCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ClockCircleOutlined")
+  lazy(() => import("@ant-design/icons/ClockCircleOutlined"))
 )
 
-export const TeamOutlined = createLazyIconComponent(() => import("@ant-design/icons/TeamOutlined"))
+export const TeamOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/TeamOutlined"))
+)
 
 export const ContainerOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ContainerOutlined")
+  lazy(() => import("@ant-design/icons/ContainerOutlined"))
 )
 
 export const SearchOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/SearchOutlined")
+  lazy(() => import("@ant-design/icons/SearchOutlined"))
 )
 
 export const CheckOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CheckOutlined")
+  lazy(() => import("@ant-design/icons/CheckOutlined"))
 )
 
 export const EllipsisOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/EllipsisOutlined")
+  lazy(() => import("@ant-design/icons/EllipsisOutlined"))
 )
 
 export const WarningOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/WarningOutlined")
+  lazy(() => import("@ant-design/icons/WarningOutlined"))
 )
 
-export const MoreOutlined = createLazyIconComponent(() => import("@ant-design/icons/MoreOutlined"))
+export const MoreOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/MoreOutlined"))
+)
 
 export const CheckCircleTwoTone = createLazyIconComponent(
-  () => import("@ant-design/icons/CheckCircleTwoTone")
+  lazy(() => import("@ant-design/icons/CheckCircleTwoTone"))
 )
 
 export const ExclamationCircleFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/ExclamationCircleFilled")
+  lazy(() => import("@ant-design/icons/ExclamationCircleFilled"))
 )
 
 export const CloseCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CloseCircleOutlined")
+  lazy(() => import("@ant-design/icons/CloseCircleOutlined"))
 )
 
 export const InfoCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/InfoCircleOutlined")
-)
-
-export const FileSyncOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/FileSyncOutlined")
+  lazy(() => import("@ant-design/icons/InfoCircleOutlined"))
 )
 
 export const FileProtectOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/FileProtectOutlined")
+  lazy(() => import("@ant-design/icons/FileProtectOutlined"))
 )
 
 export const ToTopOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ToTopOutlined")
+  lazy(() => import("@ant-design/icons/ToTopOutlined"))
 )
 
 export const CheckCircleFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/CheckCircleFilled")
+  lazy(() => import("@ant-design/icons/CheckCircleFilled"))
 )
 
 export const CheckCircleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CheckCircleOutlined")
+  lazy(() => import("@ant-design/icons/CheckCircleOutlined"))
 )
 
 export const GitlabOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/GitlabOutlined")
+  lazy(() => import("@ant-design/icons/GitlabOutlined"))
 )
 
 export const GoogleOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/GoogleOutlined")
+  lazy(() => import("@ant-design/icons/GoogleOutlined"))
 )
 
 export const SettingOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/SettingOutlined")
+  lazy(() => import("@ant-design/icons/SettingOutlined"))
 )
 
-export const ApiOutlined = createLazyIconComponent(() => import("@ant-design/icons/ApiOutlined"))
+export const ApiOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/ApiOutlined"))
+)
 
 export const AppstoreOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/AppstoreOutlined")
+  lazy(() => import("@ant-design/icons/AppstoreOutlined"))
 )
 
 export const UploadOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/UploadOutlined")
+  lazy(() => import("@ant-design/icons/UploadOutlined"))
 )
 
 export const BlockOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/BlockOutlined")
+  lazy(() => import("@ant-design/icons/BlockOutlined"))
 )
 
 export const DatabaseOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/DatabaseOutlined")
+  lazy(() => import("@ant-design/icons/DatabaseOutlined"))
 )
 
 export const CoffeeOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CoffeeOutlined")
+  lazy(() => import("@ant-design/icons/CoffeeOutlined"))
 )
 
-export const LockOutlined = createLazyIconComponent(() => import("@ant-design/icons/LockOutlined"))
+export const LockOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/LockOutlined"))
+)
 
 export const ShareAltOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ShareAltOutlined")
+  lazy(() => import("@ant-design/icons/ShareAltOutlined"))
 )
 
 export const DoubleRightOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/DoubleRightOutlined")
+  lazy(() => import("@ant-design/icons/DoubleRightOutlined"))
 )
 
-export const SyncOutlined = createLazyIconComponent(() => import("@ant-design/icons/SyncOutlined"))
+export const SyncOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/SyncOutlined"))
+)
 
-export const BookOutlined = createLazyIconComponent(() => import("@ant-design/icons/BookOutlined"))
+export const BookOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/BookOutlined"))
+)
 
 export const HourglassOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/HourglassOutlined")
+  lazy(() => import("@ant-design/icons/HourglassOutlined"))
 )
 
 export const RetweetOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/RetweetOutlined")
+  lazy(() => import("@ant-design/icons/RetweetOutlined"))
 )
 
 export const ApartmentOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ApartmentOutlined")
+  lazy(() => import("@ant-design/icons/ApartmentOutlined"))
 )
 
 export const CloudServerOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CloudServerOutlined")
+  lazy(() => import("@ant-design/icons/CloudServerOutlined"))
 )
 
 export const ClusterOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ClusterOutlined")
+  lazy(() => import("@ant-design/icons/ClusterOutlined"))
 )
 
-export const FireOutlined = createLazyIconComponent(() => import("@ant-design/icons/FireOutlined"))
+export const FireOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FireOutlined"))
+)
 
-export const SaveOutlined = createLazyIconComponent(() => import("@ant-design/icons/SaveOutlined"))
+export const SaveOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/SaveOutlined"))
+)
 
-export const SwapOutlined = createLazyIconComponent(() => import("@ant-design/icons/SwapOutlined"))
+export const SwapOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/SwapOutlined"))
+)
 
 export const DashboardOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/DashboardOutlined")
+  lazy(() => import("@ant-design/icons/DashboardOutlined"))
 )
 
 export const ImportOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ImportOutlined")
+  lazy(() => import("@ant-design/icons/ImportOutlined"))
 )
 
 export const UnlockOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/UnlockOutlined")
+  lazy(() => import("@ant-design/icons/UnlockOutlined"))
 )
 
 export const UpdateOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ArrowUpOutlined")
+  lazy(() => import("@ant-design/icons/ArrowUpOutlined"))
 )
 
 export const ArrowDownOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ArrowDownOutlined")
+  lazy(() => import("@ant-design/icons/ArrowDownOutlined"))
 )
 
-export const FlagOutlined = createLazyIconComponent(() => import("@ant-design/icons/FlagOutlined"))
+export const FlagOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/FlagOutlined"))
+)
 
 export const ExperimentOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/ExperimentOutlined")
+  lazy(() => import("@ant-design/icons/ExperimentOutlined"))
 )
 
-export const BulbOutlined = createLazyIconComponent(() => import("@ant-design/icons/BulbOutlined"))
+export const BulbOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/BulbOutlined"))
+)
 
 export const KubernetesOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/KubernetesOutlined")
+  lazy(() => import("@ant-design/icons/KubernetesOutlined"))
 )
 
 export const InfoCircleFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/InfoCircleFilled")
+  lazy(() => import("@ant-design/icons/InfoCircleFilled"))
 )
 
 export const UserAddOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/UserAddOutlined")
+  lazy(() => import("@ant-design/icons/UserAddOutlined"))
 )
 
-export const KeyOutlined = createLazyIconComponent(() => import("@ant-design/icons/KeyOutlined"))
+export const KeyOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/KeyOutlined"))
+)
 
 export const WarningFilled = createLazyIconComponent(
-  () => import("@ant-design/icons/WarningFilled")
+  lazy(() => import("@ant-design/icons/WarningFilled"))
 )
 
 export const SlackOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/SlackOutlined")
+  lazy(() => import("@ant-design/icons/SlackOutlined"))
 )
 
-export const ReadOutlined = createLazyIconComponent(() => import("@ant-design/icons/ReadOutlined"))
+export const ReadOutlined = createLazyIconComponent(
+  lazy(() => import("@ant-design/icons/ReadOutlined"))
+)
 
 export const CloudUploadOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/CloudUploadOutlined")
+  lazy(() => import("@ant-design/icons/CloudUploadOutlined"))
 )
 
 export const Loading3QuartersOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/Loading3QuartersOutlined")
-)
-
-export const PieChartOutlined = createLazyIconComponent(
-  () => import("@ant-design/icons/PieChartOutlined")
+  lazy(() => import("@ant-design/icons/Loading3QuartersOutlined"))
 )
