@@ -3,7 +3,7 @@ import React, { forwardRef } from "react"
 import Icon from "./Icon"
 import { ReactComponent as SvgCodeIcon } from "./images/code.svg"
 
-export const CodeIcon = forwardRef<
+export const CodeOutlined = forwardRef<
   SVGSVGElement,
   {
     className?: string
