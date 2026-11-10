@@ -1,14 +1,12 @@
-import { AntdIconProps } from "@ant-design/icons/lib/components/AntdIcon"
 import { CustomIconComponentProps } from "@ant-design/icons/lib/components/Icon"
 import React, { forwardRef, SVGProps } from "react"
 
 export type IconProps = {
   component:
     | React.ComponentType<SVGProps<SVGSVGElement>>
-    | React.ComponentType<AntdIconProps | React.SVGProps<SVGSVGElement>>
+    | React.ComponentType<React.SVGProps<SVGSVGElement> & { disabled?: boolean }>
     | React.ForwardRefExoticComponent<CustomIconComponentProps>
-} & SVGProps<SVGSVGElement> &
-  AntdIconProps
+} & SVGProps<SVGSVGElement> & { disabled?: boolean }
 
 const Icon = forwardRef<SVGSVGElement, IconProps>(function InnerIcon(
   { component: SvgComponent, ...props },
